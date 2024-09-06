@@ -106,6 +106,14 @@ a {
     background-size: cover;
 }
 
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: url("../images/hero-bg-2x.jpg");
+  }
+}
+
 .hero-pretitle {
     font-family: var(--font-family);
     font-weight: 700;
@@ -224,6 +232,14 @@ a {
     background-image: url(../images/orderBg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .order {
+    background-image: url("../images/orderBg-2x.jpg");
+  }
 }
 
 .order-title {
